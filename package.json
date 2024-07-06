@@ -1,0 +1,24 @@
+{
+  "name": "sql-bench",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db": "ts-node src/db.ts",
+    "seed": "ts-node src/seed.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@types/node": "^20.14.10",
+    "prettier": "^3.3.2",
+    "prisma": "^5.16.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@prisma/client": "5.16.1",
+    "sqlite3": "^5.1.7"
+  }
+}
